@@ -163,25 +163,32 @@ img {
 }
 
 .img-container3 {
-    margin-right: 150px;
     border: 5px solid;
     border-radius: 4px;
     width:30%;
     overflow: hidden;
     display: flex;
+    float: left;
+    clear: right;
 }
 
 .text {
     margin: 0;
     font-size: 20px;
     padding-left: 20px;
-    margin-bottom: 20px;
     color:#fff;
+    margin: 150px auto;
 }
 
-.main-text2 {
+.main-text2 { 
     margin-top: 15%;
     text-align: center;
     position: static;
     display: block;
+}
+
+.sub-text {
+    font-size: 2em;
+    font-weight: 600;
+    color:white;
 }
