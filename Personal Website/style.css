@@ -1,5 +1,5 @@
 html, body {
-    background-color: #22223b;
+    background-color: #4d5d53;
     height: 100%;
     margin: 0;
     padding-top: 1em;
@@ -7,12 +7,15 @@ html, body {
 }
 
 p {
+    padding: 25px;
     display: flex;
     margin: 1em;
     margin-inline-start:0px;
     margin-inline-end: 0px;
-    color: #fff;
+    color: #8f9779;
     text-align: center;
+    justify-content: center;
+    font-weight: bold;
 
 }
 
@@ -54,8 +57,8 @@ header ul {
    display: flex;
    justify-content: center;
    text-align: center;
-   background-color: black;
-   border: solid 1px black;
+   background-color: #8f9779;
+   border: solid 1px #8f9779;
    border-radius: 40px;
    margin-top: 1em;
    padding-left: 0;
@@ -102,6 +105,7 @@ header ul li a.active {
 }
 
 .sub-text {
+    margin-left: 150px;
     font-size: 2em;
     font-weight: 600;
     color:white;
@@ -143,18 +147,19 @@ header ul li a.active {
 img {
     float: left;
     margin: 5px;
-    max-width: 100%;
     height: 100%;
    object-fit: cover;
    margin-right: 20px;
 }
 
 .img-container {
-    align-items: center;
+    object-fit: cover;
+    flex-direction: row;
+    flex: 1;
     justify-content: center;
     border: 5px solid;
     border-radius: 4px;
-    width:30%;
+    width: 25%;
     overflow: hidden;
     display: flex;
     flex-basis: 40%;
@@ -163,7 +168,7 @@ img {
 .img-container2 {
     border: 5px solid;
     border-radius: 4px;
-    width:30%;
+    width:20%;
     overflow: hidden;
     display: flex;
     float: right;
@@ -174,7 +179,7 @@ img {
 .img-container3 {
     border: 5px solid;
     border-radius: 4px;
-    width:30%;
+    width:20%;
     overflow: hidden;
     display: flex;
     float: left;
@@ -190,21 +195,43 @@ img {
 }
 
 .main-text2 { 
-    margin-top: 15%;
     text-align: center;
     position: static;
     display: block;
-
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    color:#fff;
 }
 
 .sub-text2 {
+    margin-left: 150px;
+    margin-right:150px;
+    border: 5px solid #738276;
+    background-color: #738276;
+    border-radius: 40px;
     font-size: 2em;
     font-weight: 600;
     color:white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-style: italic;
+    padding-left: 50px;
+
+
+}
+
+.sub-text3 {
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 5px solid #738276;
+    background-color: #738276;
+    border-radius: 40px;
+    color:white;
+    display: block;
+    justify-content: center;
+
 }
 
 .quote {
