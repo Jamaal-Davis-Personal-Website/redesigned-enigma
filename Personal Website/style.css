@@ -1,17 +1,18 @@
 html, body {
-    background-color: #7597de;
+    background-color: #22223b;
     height: 100%;
     margin: 0;
 }
 
-.p {
+p {
     display: block;
     margin: 1em;
     margin-inline-start:0px;
     margin-inline-end: 0px;
+    color: #fff;
 }
 
-.quote-container {
+quote-container {
     display: block;
     margin: 1em;
     font-size: 30px;
@@ -46,6 +47,7 @@ header .heading {
     font-size: 1.5em;
     letter-spacing: 1px;
     margin: 1em;
+    font-family: "Goudy Bookletter 1911", sans-serif;
 }
 
 header ul {
@@ -81,7 +83,7 @@ header ul li a.active {
 
 
 .main-text {
-    margin-top: 15%;
+    margin-top: 10%;
     text-align: center;
     position: static;
 }
@@ -89,9 +91,6 @@ header ul li a.active {
 .main-text h1 {
     font-size: 3em;
     font-weight: 300;
-    margin: 0;
-    padding: 0;
-    
 }
 
 .sub-text {
@@ -109,13 +108,14 @@ header ul li a.active {
 }
 
 .nav-footer {
-    transition: 0.2s;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .nav-footer a {
     color: white;
-    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0 10px;
 }
 
 .nav-footer a:hover,
