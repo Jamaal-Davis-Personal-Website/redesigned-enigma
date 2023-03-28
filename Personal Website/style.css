@@ -59,6 +59,7 @@ header ul li {
     list-style: none;
     margin-left: 20px;
     margin: 20px 20px;
+    font-size: 1.5em;
 
 }
 
@@ -77,10 +78,20 @@ header ul li a.active {
 }
 
 
+
+
 .main-text {
     margin-top: 15%;
     text-align: center;
     position: static;
+}
+
+.main-text h1 {
+    font-size: 3em;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .sub-text {
@@ -100,6 +111,16 @@ header ul li a.active {
 .nav-footer {
     transition: 0.2s;
 
+}
+
+.nav-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-footer a:hover,
+.nav-footer a.active {
+    color: #2b1055;
 }
 
 .nav-footer:hover {
