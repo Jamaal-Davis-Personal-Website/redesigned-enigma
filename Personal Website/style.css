@@ -94,14 +94,12 @@ header ul li a.active {
     margin-top: 10%;
     text-align: center;
     position: static;
-    display; fixed;
+    display: fixed;
 }
 
 .main-text h1 {
     font-size: 3em;
     font-weight: 300;
-    margin-block: ;
-    
 }
 
 .sub-text {
@@ -109,6 +107,37 @@ header ul li a.active {
     font-size: 2em;
     font-weight: 600;
     color:white;
+}
+
+.sub-text2 {
+    margin-top: 110px;
+    margin-left: 300px;
+    margin-right:150px;
+    border: 5px solid #738276;
+    background-color: #738276;
+    border-radius: 40px;
+    font-size: 2em;
+    font-weight: 600;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    padding-left: 50px;
+}
+
+.sub-text3 {
+    font-style: italic;
+    margin-top: 130px;
+    margin-left: 500px;
+    margin-right: 150px;
+    border: 5px solid #738276;
+    background-color: #738276;
+    border-radius: 40px;
+    color:white;
+    display: block;
+    justify-content: center;
+
 }
 
 .footer {
@@ -180,6 +209,37 @@ img {
     clear: right;
 }
 
+/* image styling for wip signs */
+.img-container4 {
+    object-fit: cover;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    width: 25%;
+    overflow: hidden;
+    display: flex;
+    flex-basis: 40%;
+}
+
+/* image styling for wip signs */
+.img-container5 {
+    width:20%;
+    overflow: hidden;
+    display: flex;
+    float: right;
+    clear: right;
+
+}
+
+/* image styling for wip signs */
+.img-container6 {
+    width:20%;
+    overflow: hidden;
+    display: flex;
+    float: left;
+    clear: right;
+}
+
 .text {
     margin: 0;
     font-size: 20px;
@@ -196,36 +256,7 @@ img {
     color:#fff;
 }
 
-.sub-text2 {
-    margin-top: 110px;
-    margin-left: 300px;
-    margin-right:150px;
-    border: 5px solid #738276;
-    background-color: #738276;
-    border-radius: 40px;
-    font-size: 2em;
-    font-weight: 600;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-style: italic;
-    padding-left: 50px;
-}
 
-.sub-text3 {
-    font-style: italic;
-    margin-top: 130px;
-    margin-left: 500px;
-    margin-right: 150px;
-    border: 5px solid #738276;
-    background-color: #738276;
-    border-radius: 40px;
-    color:white;
-    display: block;
-    justify-content: center;
-
-}
 
 .divider-line {
     margin-top: 50px;
@@ -268,33 +299,3 @@ img {
 
 
 
-/* image styling for wip signs */
-.img-container4 {
-    object-fit: cover;
-    flex-direction: row;
-    flex: 1;
-    justify-content: center;
-    width: 25%;
-    overflow: hidden;
-    display: flex;
-    flex-basis: 40%;
-}
-
-/* image styling for wip signs */
-.img-container5 {
-    width:20%;
-    overflow: hidden;
-    display: flex;
-    float: right;
-    clear: right;
-
-}
-
-/* image styling for wip signs */
-.img-container6 {
-    width:20%;
-    overflow: hidden;
-    display: flex;
-    float: left;
-    clear: right;
-}
