@@ -122,14 +122,16 @@ header ul li a.active {
 }
 
 .nav-footer {
-    padding-top: 20px;
-    padding-bottom: 50px;
-    margin-bottom: 0 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 38px; /* padding of the footer */ 
+   
 }
 
 .nav-footer a {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.5em; 
     padding: 0 10px;
     display: inline-block;
 
@@ -153,21 +155,14 @@ img {
 }
 
 .img-container {
-    object-fit: cover;
-    flex-direction: row;
-    flex: 1;
     justify-content: center;
     border: 5px solid;
-    border-radius: 4px;
     width: 25%;
-    overflow: hidden;
     display: flex;
-    flex-basis: 40%;
 }
 
 .img-container2 {
     border: 5px solid;
-    border-radius: 4px;
     width:20%;
     overflow: hidden;
     display: flex;
@@ -178,7 +173,6 @@ img {
 
 .img-container3 {
     border: 5px solid;
-    border-radius: 4px;
     width:20%;
     overflow: hidden;
     display: flex;
@@ -198,14 +192,13 @@ img {
     text-align: center;
     position: static;
     display: block;
-    margin-bottom: 20px;
     font-size: 20px;
-    padding-left: 20px;
     color:#fff;
 }
 
 .sub-text2 {
-    margin-left: 150px;
+    margin-top: 110px;
+    margin-left: 300px;
     margin-right:150px;
     border: 5px solid #738276;
     background-color: #738276;
@@ -218,12 +211,12 @@ img {
     align-items: center;
     font-style: italic;
     padding-left: 50px;
-
-
 }
 
 .sub-text3 {
-    margin-left: 150px;
+    font-style: italic;
+    margin-top: 130px;
+    margin-left: 500px;
     margin-right: 150px;
     border: 5px solid #738276;
     background-color: #738276;
@@ -231,6 +224,36 @@ img {
     color:white;
     display: block;
     justify-content: center;
+
+}
+
+.divider-line {
+    margin-top: 50px;
+    padding: 0;
+    width: 95vmax;
+    height:2px;
+    background-color: #738276;
+    display: inline-block;
+
+}
+
+.divider-line2 {
+    margin-top: 50px;
+    padding: 0;
+    width: 95vmax;
+    height:2px;
+    background-color: #738276;
+    display: inline-block;
+
+}
+
+.divider-line3 {
+    margin-top: 50px;
+    padding: 0;
+    width: 95vmax;
+    height:2px;
+    background-color: #738276;
+    display: inline-block;
 
 }
 
@@ -243,3 +266,33 @@ img {
     justify-content: center;
 }
 
+
+
+/* image styling for wip signs */
+.img-container4 {
+    object-fit: cover;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    width: 25%;
+    overflow: hidden;
+    display: flex;
+    flex-basis: 40%;
+}
+
+.img-container5 {
+    width:20%;
+    overflow: hidden;
+    display: flex;
+    float: right;
+    clear: right;
+
+}
+
+.img-container6 {
+    width:20%;
+    overflow: hidden;
+    display: flex;
+    float: left;
+    clear: right;
+}
