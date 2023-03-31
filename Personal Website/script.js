@@ -3,4 +3,4 @@ const firstWord = "Hi,"
 const secondWord = "Welcome,";
 const thirdWord = "Greetings!";
 
-alert(message + firstNum + " - " + secondNum + " - " + thirdNum);
+alert(message + firstWord + " - " + secondWord + " - " + thirdWord);
