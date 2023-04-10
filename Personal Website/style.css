@@ -282,5 +282,21 @@ img {
     justify-content: center;
 }
 
+form {
+    margin-left: 50%
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    max-width: 50%;
+}
+
+.contact-Header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
 
 
