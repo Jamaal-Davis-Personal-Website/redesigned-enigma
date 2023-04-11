@@ -233,6 +233,7 @@ img {
   color: #313048;
 }
 
+/*** STYLING FOR BREAK AWAY DIVIDERS ***/
 .divider-line {
   margin-top: 50px;
   padding: 0;
@@ -269,6 +270,16 @@ img {
   justify-content: center;
 }
 
+
+.contact-Header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+
 form {
   margin-left: 25%;
   align-items: center;
@@ -279,13 +290,7 @@ form {
   font-family: Arial, sans-serif;
 }
 
-.contact-Header {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin-top: 50px;
-  margin-left: 20px;
-}
+
 
 label,
 input,
