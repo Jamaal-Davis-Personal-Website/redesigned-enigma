@@ -6,7 +6,7 @@ const thirdWord = "Greetings to my first personal page!";
 
 alert(message + " " + firstWord + " " + secondWord + " " + thirdWord);
 
-const form = document.querySelector("#form");
+const form = document.querySelector("#my-form");
 const submitButton = document.querySelector("#submit");
 const scriptURL =
   "https://script.google.com/macros/s/1XTaVdkdAnzhAHoLOA-x0K4svtJOB9RUnp2OgudFCNoEE4Lo8muDKOgSO/exec";
