@@ -123,6 +123,8 @@ header ul li a.active {
 }
 
 .footer-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
   height: 60px; /* height of the footer */
   position: static;
@@ -314,10 +316,8 @@ button[type="submit"] {
   max-width: 30em;
 }
 
-@media all and (max-height: 320px) {
-}
-
-@media all and (max-height: 768px) {
+/* --------------------MEDIA QUERIES-------------------------------------------- */
+@media (max-height: 768px) {
   h1 {
     padding-top: 50px;
   }
@@ -353,13 +353,17 @@ button[type="submit"] {
     margin-bottom: 0px;
   }
 
-  .footer-content {
+  .footer-content p {
+    font-size: 14px;
+    padding: 0;
   }
 }
 
-@media all and (max-height: 1050px) {
+@media (max-height: 1024px) {
 
   .footer-container {
+    margin-top: 0;
+    margin-bottom: 0;
     padding-bottom: 0;
     padding-top: 0;
   }
@@ -371,11 +375,18 @@ button[type="submit"] {
   .img-container,
   .img-container2,
   .img-container3 {
-    width: 30%;
+    width: 20%;
   }
 
+  .img-container4,
+  .img-container5,
+  .img-container6 {
+    width: 20%;
+  }
+
+
   .nav-footer {
-    padding-top: 40px;
+    padding-top: 15px;
   }
 
   .nav-footer a {
@@ -391,5 +402,9 @@ button[type="submit"] {
   }
 
   .footer-content {
+    font-size: 17px;
+    padding: 0;
+
+
   }
 }
