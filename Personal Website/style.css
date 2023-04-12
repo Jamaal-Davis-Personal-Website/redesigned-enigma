@@ -165,7 +165,7 @@ img {
   align-items: center;
   justify-content: center;
   border: 5px solid;
-  width: 25%;
+  max-width: 25%;
   display: flex;
 }
 
@@ -409,7 +409,5 @@ button[type="submit"] {
   .footer-content {
     font-size: 17px;
     padding: 0;
-
-
   }
 }
